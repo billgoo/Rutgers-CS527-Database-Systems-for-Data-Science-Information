@@ -1,0 +1,6 @@
+1- Install MongoDB on your EC2 instance
+2- Download GSE13355.zip (attached)
+3- Create GSE13355 database on MySQL and MongoDB
+3- Upload GSE13355_targets.csv to MySQL and MongoDB
+4- Transpose GSE13355_expr.csv and upload the transposed file to MySQL and MongoDB
+5- Up to 5 teams will be selected to present their assignment

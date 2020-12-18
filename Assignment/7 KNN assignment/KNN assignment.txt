@@ -1,0 +1,15 @@
+1- Import the attached file (Challenger.csv) to your RDB or Redshift.
+
+2- Create a stored procedure call KNN with five inputs (@table, @target, @predictor, @value, @k).
+Example:
+@table = 'Challenger'
+@target = 'O-Ring failure'
+@predictor = 'Launch temperature'
+@value = 30
+@k = 1  
+
+@k can be any number between 1 to 5,
+
+3- Find @k nearest neighbors to @value by measuring its distance to values in @predictor column.
+
+4- Return the majority class (N or Y) of @target or the proportion of N and Y.

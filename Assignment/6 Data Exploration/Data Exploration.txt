@@ -1,0 +1,5 @@
+1- Create a stored procedure to accept a table name and a column name as inputs and returns Min, Max, Median, Average, Q1 and Q3 as outputs.
+
+2- Create a stored procedure to accept a table name and two column names as inputs and returns Correlation Coefficient as output.
+
+Attached you can find two sample stored procedures.

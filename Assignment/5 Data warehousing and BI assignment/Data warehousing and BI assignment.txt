@@ -1,0 +1,19 @@
+1- Denormalize ABC_Retail tables
+2- Create MyCube table from the denormalized table
+
+select 
+    year(OrderDate) as ThisYear
+    ,[Order_ShipCountry] as Region
+    ,[ProductName] as Product
+    ,[Order_Amount] as Sales
+into
+    MyCube
+from 
+    ABC_Retail
+where
+    [Order_ShipCountry] in ('USA','Canada','UK')
+    and [ProductName] in ('Chai','Tofu','Chocolade')
+
+3- Run all the attached OLAP Operators against the newly created MyCube table
+
+4- If your DBMS does not support PIVOT, write a SQL script to produce the same result 

@@ -1,0 +1,1 @@
+Please make sure you have your AWS account up and running before noon on Monday Sep. 21. Moreover, you should upload the Instacart files to S3 and then to RDS. Finally, each group will have 2-3 minutes to present their AWS account.

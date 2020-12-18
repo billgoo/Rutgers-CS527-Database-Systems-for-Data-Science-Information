@@ -1,0 +1,6 @@
+- Use Instacart or ABC_Retail database
+- Write Stored Procedures for the following Key_Value procedures
+> get(key) -- Extract the value given a key
+> put(key, value) -- Create or update the value given its key
+> delete(key) -- Remove the key and its associated value
+> execute(key, operation, parameters) -- Invoke an operation to the value (given its key) which is a special data structure (e.g. List, Set, Map .... etc.)
